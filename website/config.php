@@ -1,7 +1,7 @@
 <?php
 // Code pour établir la connexion à la base de données et initialiser $db
 $hostname = "localhost";
-$database = "iai_project";
+$database = "iaiprojetphp";
 $username = "root";
 $password = "";
 

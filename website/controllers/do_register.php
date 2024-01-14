@@ -3,7 +3,7 @@
 // @include('./website/config.php');
 
 $hostname = "localhost";
-$database = "iai_project";
+$database = "iaiprojetphp";
 $username = "root";
 $password = "";
 

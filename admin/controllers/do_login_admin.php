@@ -3,7 +3,7 @@
 
 // Informations de connexion à la base de données
 $hostname = "localhost";
-$database = "iai_project";
+$database = "iaiprojetphp";
 $username = "root";
 $password = "";
 

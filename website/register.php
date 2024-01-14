@@ -29,8 +29,8 @@
 
                                 <div class="card-body d-flex">
                                     <!-- <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                  <img src="../assets/images/logos/dark-logo.svg" width="180" alt="">
-                </a> -->
+                                      <img src="../assets/images/logos/dark-logo.svg" width="180" alt="">
+                                    </a> -->
 
                                     <div class="col-md-6 col-lg-6 ol-xxl-3 mb-0">
 
