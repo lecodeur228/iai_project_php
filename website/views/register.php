@@ -10,29 +10,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>inscription de etudiant</title>
     <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
-    <link rel="stylesheet" href="../css/styles.min.css" />
+    <link rel="stylesheet" href="../assets/css/styles.min.css" />
 </head>
 
 <body>
-    <!--  Body Wrapper -->
     <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
         data-sidebar-position="fixed" data-header-position="fixed">
         <div
             class="position-relative overflow-hidden radial-gradient min-vh-100 d-flex align-items-center justify-content-center">
             <div class="d-flex align-items-center justify-content-center w-100">
                 <div class="row justify-content-center w-100">
-                    <div class="col-md-12 col-lg-12 col-xxl-6 ">
-                        <form method="POST" action="./controllers/do_register.php" enctype="multipart/form-data">
-                            <div class="card ">
+                    <div class="col-md-8 col-lg-10 col-xxl-4 ">
+                        <form method="POST" action="../controllers/do_register.php" enctype="multipart/form-data">
+                            <div class="card mt-3 d-flex justify-content-center align-items-center">
 
                                 <h1 class="text-center mt-2">creer un compte</h1>
 
-                                <div class="card-body d-flex">
+                                <div class="card-body ">
                                     <!-- <a href="./index.html" class="text-nowrap logo-img text-center d-block py-3 w-100">
                                       <img src="../assets/images/logos/dark-logo.svg" width="180" alt="">
                                     </a> -->
 
-                                    <div class="col-md-6 col-lg-6 ol-xxl-3 mb-0">
+                                    <div class=" mb-0">
 
 
                                         <div class="mb-3">
@@ -179,12 +178,8 @@
                                                   }
                                                 ?>
                                         </div>
-
-
-
-                                    </div>
-                                    <div class="m-3 text-center" style="width: 18rem;" id="imageCard">
-                                        <img src="../images/img.png" class="card-img-top" alt="Default Image"
+                                        <div class="m-3 text-center" style="width: 18rem;" id="imageCard">
+                                        <img src="../assets/images/img.png" class="card-img-top" alt="Default Image"
                                             id="selectedImage">
                                         <input type="file" name="image" class="form-control" accept="image/*" id="imageInput"
                                             style="display: none">
@@ -222,6 +217,10 @@
                                                 ?>
                                         </div>
                                     </div>
+
+
+                                    </div>
+                                    
                                 </div>
                                 <button type="submit" class="btn btn-primary w-100 py-3  fs-4 rounded-2">Creer</button>
 

@@ -1,4 +1,4 @@
-<div class="hero-wrap" style="background-image: url('../images/bg_1.jpg'); background-attachment:fixed;">
+<div class="hero-wrap" style="background-image: url('../assets/images/bg_1.jpg'); background-attachment:fixed;">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -40,32 +40,29 @@
     </div>
 </div>
 <section class="ftco-section">
+  <div class="text text-center fw-bold">
+    <h2>Les différentes branche à IAI-TOGO : </h2>
+  </div>
     	<div class="container">
     		<div class="row">
           <div class="col-md-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services p-3 py-4 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-exam"></span></div>
               <div class="media-body px-3">
-                <h3 class="heading">Admission</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Genie Logiciel</h3>
               </div>
             </div>      
           </div>
           <div class="col-md-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services p-3 py-4 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-blackboard"></span></div>
               <div class="media-body px-3">
-                <h3 class="heading">Notice Board</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Administrateur Reseau</h3>
               </div>
             </div>      
           </div>
           <div class="col-md-4 d-flex align-self-stretch ftco-animate">
             <div class="media block-6 services p-3 py-4 d-block text-center">
-              <div class="icon d-flex justify-content-center align-items-center mb-3"><span class="flaticon-books"></span></div>
               <div class="media-body px-3">
-                <h3 class="heading">Our Library</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                <h3 class="heading">Technologies Web et MultiMedia</h3>
               </div>
             </div>    
           </div>

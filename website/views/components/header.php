@@ -11,10 +11,10 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="../website/index.php" class="nav-link">Accieul</a></li>
-                <li class="nav-item"><a href="../website/about.php" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="../website/course.php" class="nav-link">Courses</a></li>
-                <li class="nav-item"><a href="../website/contact.php" class="nav-link">Contact</a></li>
+                <li class="nav-item active"><a href="./index.php" class="nav-link">Accieul</a></li>
+                <li class="nav-item"><a href="./about.php" class="nav-link">A propos</a></li>
+                <li class="nav-item"><a href="./course.php" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="./contact.php" class="nav-link">Contact</a></li>
                 <?php
                 @include('config.php');
           session_start();
@@ -42,7 +42,7 @@
                     // echo "PDF Nationalité: {$confirmationInfo['nat']}<br>";
                     // echo "PDF Attestation: {$confirmationInfo['attes']}<br>";
                 } else {
-                    echo "<li class='nav-item cta mx-3'><a href='../website/confirmation_doc.php' class='nav-link'><span>Completer les dossiers</span></a></li>";
+                    echo "<li class='nav-item cta mx-3'><a href='./confirmation_doc.php' class='nav-link'><span>Completer les dossiers</span></a></li>";
                 }
 
 
@@ -51,8 +51,8 @@
           }
           else {
             echo "
-            <li class='nav-item cta'><a href='../website/register.php' class='nav-link'><span>S'inscrire</span></a></li>
-            <li class='nav-item cta mx-3'><a href='../website/login.php' class='nav-link'><span>Se connecter</span></a></li>";
+            <li class='nav-item cta'><a href='./register.php' class='nav-link'><span>S'inscrire</span></a></li>
+            <li class='nav-item cta mx-3'><a href='./login.php' class='nav-link'><span>Se connecter</span></a></li>";
           }
           
           ?>

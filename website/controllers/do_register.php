@@ -97,7 +97,7 @@ if (!in_array($imageFileType, $allowedExtensions)) {
 
 // Vérifier si $uploadOk est défini à 0 par une erreur
 if ($uploadOk == 0) {
-    header("../register.php?error=13");
+    header("..//views/register.php?error=13");
     
 } else {
     // Si tout est correct, essayer d'uploader le fichier
@@ -125,7 +125,7 @@ $stmt->bindParam(':photo_passport', $_FILES["image"]["name"]);
 $stmt->execute();
 
         // Rediriger l'utilisateur vers une page de confirmation ou effectuer d'autres actions nécessaires
-        header("Location: ../login.php");
+        header("Location: ../viexs/login.php");
         exit();
     } else {
         echo "Désolé, une erreur s'est produite lors du téléchargement du fichier.";
