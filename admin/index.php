@@ -6,22 +6,24 @@
     {
         header("./login_admin.php");
     }
-  $hostname = "localhost";
-  $database = "iaiprojetphp";
-  $username = "root";
-  $password = "";
+//   $hostname = "localhost";
+//   $database = "iaiprojetphp";
+//   $username = "root";
+//   $password = "";
 
-  try {
-      $dsn = "mysql:host=$hostname;dbname=$database;charset=utf8";
-      $options = [
-          PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-          PDO::ATTR_EMULATE_PREPARES => false,
-      ];
+//   try {
+//       $dsn = "mysql:host=$hostname;dbname=$database;charset=utf8";
+//       $options = [
+//           PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+//           PDO::ATTR_EMULATE_PREPARES => false,
+//       ];
 
-      $db = new PDO($dsn, $username, $password, $options);
-  } catch (PDOException $e) {
-      echo "Erreur de connexion à la base de données : " . $e->getMessage();
-  }
+//       $db = new PDO($dsn, $username, $password, $options);
+//   } catch (PDOException $e) {
+//       echo "Erreur de connexion à la base de données : " . $e->getMessage();
+//   }
+
+include("./controllers/config.php");
     // code pour avoir le nombre d'etudiants
   $query_etudiants = "SELECT COUNT(*) as totalEtudiants FROM etudiants";
     $stmt = $db->query($query_etudiants);

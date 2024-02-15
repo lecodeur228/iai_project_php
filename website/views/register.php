@@ -66,7 +66,7 @@
                                         </div>
 
                                         <div class="mb-3">
-                                            <label for="exampleInputEmail1" class="form-label">date d naissance</label>
+                                            <label for="exampleInputEmail1" class="form-label">date de naissance</label>
                                             <input type="date" class="form-control" name="birthday">
                                             <?php 
                                                   if (isset($_GET['error']) && $_GET['error'] == 3) {

@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="./assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
 
     <link rel="stylesheet" href="../assets/css/aos.css">
 
@@ -38,7 +38,7 @@
 
 
 
-    <div class="hero-wrap hero-wrap-2" style="background-image: url('../assets/images/bg_2.jpg'); background-attachment:fixed;">
+    <div class="hero-wrap hero-wrap-2" style="background-image: url('../assets/images/bg_1.jpg'); background-attachment:fixed;">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -55,7 +55,7 @@
     	<div class="container">
     		<div class="row d-flex">
     			<div class="col-md-6 d-flex ftco-animate">
-    				<div class="img img-about align-self-stretch" style="background-image: url(../images/aboute.jpg); width: 100%;"></div>
+    				<div class="img img-about align-self-stretch" style="background-image: url(../assets/images/aboute.jpg); width: 100%;"></div>
     			</div>
     			<div class="col-md-6 pl-md-5 ftco-animate">
     				<h2 class="mb-4">Citation du Représentant Résident</h2>

@@ -30,7 +30,7 @@
 <body>
     <!-- begin nav bar -->
     <?php 
-        @include('assets/components/header.php')
+        @include('components/header.php')
     ?>
         <!-- end nav bar -->
 
@@ -44,7 +44,7 @@
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
             <p class="breadcrumbs"><span class="mr-2"><a href="index.html">IAI-TOGO</a></span> <span>Contact</span></p>
-            <h1 class="mb-3 bread">Nous Conacter</h1>
+            <h1 class="mb-3 bread">Nous Contacter</h1>
           </div>
         </div>
       </div>
@@ -91,7 +91,6 @@
                 <input type="submit" value="Envoyer" class="btn btn-primary py-3 px-5">
               </div>
             </form>
-          /assets
           </div>
 
           <div class="col-md-6">
@@ -108,7 +107,7 @@
       <!-- begin  footer -->
 
         <?php 
-        @include('assets/components/footer.php')
+        @include('components/footer.php')
     ?>
       <!-- end footer -->
 

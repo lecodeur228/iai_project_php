@@ -25,6 +25,7 @@
             
                 session_start();
                 $etudiant_id = $_SESSION['user']['id'];
+                $photo_profile_url = $_SESSION['user']['photo_passport'];
 
                 // Vérifiez si l'étudiant a confirmé son inscription
                 $query = "SELECT * FROM document_confirmation WHERE etudiant_id = :etudiant_id";
@@ -47,7 +48,18 @@
 
 
             echo "
-            <li class='nav-item'><h1 class='text text-primary'>$data</h1></li>";
+            <div class='dropdown'>
+            <div data-toggle='dropdown' aria-haspopup='true' aria-expanded='false' style='width: 50px; height: 50px;'>
+            <img src='http://localhost/iai_project_php/website/controllers/uploads/$photo_profile_url' class='rounded-circle' width='50' height='50'>
+            </div>
+            <div class='dropdown-menu' aria-labelledby='dropdownMenuButton'>
+                <!-- Options du dropdown -->
+                <a class='dropdown-item' href='#'>$data</a>
+                <a class='dropdown-item' href='#'>Profile</a>
+                <a class='dropdown-item text-danger' href='../controllers/do_logout.php'>Déconnexion</a>
+            </div>
+            </div>
+            ";
           }
           else {
             echo "

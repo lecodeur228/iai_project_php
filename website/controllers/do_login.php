@@ -63,11 +63,11 @@ if ($stmt->rowCount() == 1) {
     $_SESSION['user'] = $results; // Enregistre l'utilisateur dans la session
 
     // Rediriger vers la page d'accueil
-    header("Location: ../index.php");
+    header("Location: ../views/index.php");
     exit();
 } else {
     // Rediriger vers la page de connexion avec un message d'erreur
-    header("Location: ../login.php?error=1");
+    header("Location: ../views/login.php?error=1");
     exit();
 }
 ?>

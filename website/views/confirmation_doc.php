@@ -8,9 +8,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Modernize Free</title>
+    <title>Completer les dossier</title>
     <link rel="shortcut icon" type="image/png" href="../assets/images/logos/favicon.png" />
-    <link rel="stylesheet" href="../css/styles.min.css" />
+    <link rel="stylesheet" href="../assets/css/styles.min.css" />
 </head>
 
 <body>
@@ -28,7 +28,7 @@
                                     <img src="../assets/images/logos/dark-logo.svg" width="180" alt="">
                                 </a> -->
                                 <p class="text-center">Confirmation d'inscription de l'étudiant</p>
-                                <form method="post" action="./controllers/do_confirmation.php" enctype="multipart/form-data">
+                                <form method="post" action="../controllers/do_confirmation.php" enctype="multipart/form-data">
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">PDF de la naissance</label>
                                         <input type="file" class="form-control" name="pdf_naissance" accept=".pdf">

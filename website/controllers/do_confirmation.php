@@ -60,7 +60,7 @@ if (move_uploaded_file($_FILES["pdf_naissance"]["tmp_name"], $pdfNaissance) &&
     $stmt->execute();
 
     // Redirigez ou affichez un message de succès
-    header("Location: index.php");
+    header("Location: ./views/index.php");
     exit();
 
 } else {

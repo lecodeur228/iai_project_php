@@ -41,8 +41,8 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
           <div class="col-md-8 ftco-animate text-center">
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">IAI-TOGO</a></span> <span>Course</span></p>
-            <h1 class="mb-3 bread">Courses</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">IAI-TOGO</a></span> <span>Cours</span></p>
+            <h1 class="mb-3 bread">Cours</h1>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
     		<div class="row">
     			<div class="col-md-4 d-flex ftco-animate">
     				<div class="course align-self-stretch">
-    					<a href="#" class="img" style="background-image: url(../images/course-2.png)"></a>
+    					<a href="#" class="img" style="background-image: url(../assets/images/course-2.png)"></a>
     					<div class="text p-4">
 
     						<h3 class="mb-3"><a href="#">English for Tommorow</a></h3>

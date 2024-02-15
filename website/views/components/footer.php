@@ -41,7 +41,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <p> Copyright &copy;<script>document.write(new Date().getFullYear());</script> IAI-TOGO by MEK'S ENGINEERING GROUP</p>
+            <p> Copyright &copy;<script>document.write(new Date().getFullYear());</script> IAI-TOGO LECODEUR GROUP</p>
           </div>
         </div>
       </div>

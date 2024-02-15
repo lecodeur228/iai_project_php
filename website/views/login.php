@@ -29,7 +29,7 @@
                                     <img src="../assets/images/logos/dark-logo.svg" width="180" alt="">
                                 </a> -->
                                 <p class="text-center">Authentification de etudiant</p>
-                                <form method="post" action="./controllers/do_login.php">
+                                <form method="POST" action="../controllers/do_login.php">
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Nom</label>
                                         <input type="text" class="form-control" name="firstname">
@@ -40,10 +40,10 @@
                                                     if (isset($_GET['error']) && $_GET['error'] == 1) {
                                                         echo "<p class='text text-danger'>Le nom est obligatoire</p>";
                                                     }
-                                                    if (isset($_GET['error']) && $_GET['error'] == 3) {
-                                                        echo "<p class='text text-danger'>Le nom est obligatoire</p>";
-                                                    }
-                                                    ?>
+                                                    // if (isset($_GET['error']) && $_GET['error'] == 3) {
+                                                    //     echo "<p class='text text-danger'>Le nom est obligatoire</p>";
+                                                    // }
+                                        ?>
 
                                     </div>
                                     <div class="mb-4">
@@ -55,9 +55,9 @@
                                                   if (isset($_GET['error']) && $_GET['error'] == 2) {
                                                     echo "<p class='text text-danger'>la mot de passe est obligatoire</p>";
                                                 }
-                                                  if (isset($_GET['error']) && $_GET['error'] == 3) {
-                                                    echo "<p class='text text-danger'>la mot de passe est obligatoire</p>";
-                                                }
+                                                //   if (isset($_GET['error']) && $_GET['error'] == 3) {
+                                                //     echo "<p class='text text-danger'>la mot de passe est obligatoire</p>";
+                                                // }
                                             
                                                 ?>
                                     </div>
